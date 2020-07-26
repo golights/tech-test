@@ -4,3 +4,7 @@ variable "aws_region" {
 
 variable "image_name" {
 }
+
+variable "github_access_token" {
+
+}
