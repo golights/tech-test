@@ -1,3 +1,12 @@
+#
+#  Manage a codebuild pipeline
+#
+#  - github webhook
+#  - IAM role
+#  - IAM policy
+#  - codebuild project
+#
+
 resource "aws_codebuild_source_credential" "tech-test" {
   auth_type   = "PERSONAL_ACCESS_TOKEN"
   server_type = "GITHUB"
